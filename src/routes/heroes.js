@@ -2,8 +2,8 @@ const express = require("express");
 
 const routes = express.Router();
 
-routes.get("/capitao-america", function(req, res) {
-    res.send("Capitao America");
+routes.get("/gambit", function(req, res) {
+    res.send("Gambit");
 });
 
 routes.get("/hulk", function(req, res){
