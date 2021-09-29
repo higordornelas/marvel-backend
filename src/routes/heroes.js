@@ -2,16 +2,16 @@ const express = require("express");
 
 const routes = express.Router();
 
-routes.get("/iron-man", function(req, res) {
-    res.send("Iron Man");
+routes.get("/capitao-america", function(req, res) {
+    res.send("Capitao America");
 });
 
-routes.get("/thor", function(req, res){
-    res.send("Thor");
+routes.get("/hulk", function(req, res){
+    res.send("Hulk");
 })
 
-routes.get("/spider-man", function(req, res){
-    res.send("Spider Man");
+routes.get("/wolverine", function(req, res){
+    res.send("Wolverine");
 })
 
 module.exports = routes;

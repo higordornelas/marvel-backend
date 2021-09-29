@@ -6,8 +6,8 @@ routes.get("/dr-doom", function(req, res){
     res.send("Dr. Doom");
 });
 
-routes.get("/venom", function(req, res){
-    res.send("Venom");
+routes.get("/carnage", function(req, res){
+    res.send("Carnage");
 });
 
 routes.get("/thanos", function(req, res){
